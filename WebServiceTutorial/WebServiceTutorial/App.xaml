@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebServiceTutorial.App">
+    <Application.Resources>
+        <Color x:Key="AppPrimaryColor">#1A1A1A</Color>
+        <Color x:Key="AppBackgroundColor">#333</Color>
+        <Color x:Key="PrimaryColor">#00A9DE</Color>
+        <Color x:Key="SecondaryColor">#A3A9AE</Color>
+        <Color x:Key="TertiaryColor">Silver</Color>
+
+        <Style TargetType="Button">
+            <Setter Property="FontSize"
+                    Value="Medium" />
+            <Setter Property="BackgroundColor"
+                    Value="silver" />
+            <Setter Property="TextColor"
+                    Value="{StaticResource AppPrimaryColor}" />
+            <Setter Property="CornerRadius"
+                    Value="10" />
+        </Style>
+    </Application.Resources>
+</Application>
